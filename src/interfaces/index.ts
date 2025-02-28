@@ -23,3 +23,4 @@ export * from "./field-config.interface";
 export * from "./field-subconfig.interface";
 export * from "./popup.interface";
 export * from "./article.interface";
+export * from "./awning-price.interface";
