@@ -15,6 +15,7 @@ export interface IArticle {
   lonRate: string;
   lonGroup: string;
   lonEdging: string;
+  salePriceBeforeDiscount?: number;
   salePrice: number;
   unsubscribed: number;
   crtlStk: number;
