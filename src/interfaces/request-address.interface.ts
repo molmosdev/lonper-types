@@ -1,4 +1,4 @@
-export interface IRequestAddressPost {
+export interface IRequestAddress {
   addressId: number;
   streetAndNumber: string;
   addressComplement?: string;
