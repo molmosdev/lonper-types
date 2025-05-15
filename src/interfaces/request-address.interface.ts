@@ -1,8 +1,7 @@
-export interface IRequestAddress {
-  id: string;
-  city: string;
+export interface IRequestAddressPost {
+  addressId: number;
   streetAndNumber: string;
-  postalCode: number;
-  province: string;
-  country: string;
+  addressComplement?: string;
+  phone1: string;
+  phone2?: string;
 }
