@@ -4,4 +4,5 @@ export interface IRequestAddress {
   addressComplement?: string;
   phone1: string;
   phone2?: string;
+  alternative: boolean;
 }

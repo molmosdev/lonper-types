@@ -1,6 +1,6 @@
 {
   "name": "@lonper/types",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Lonper (portal and api) types",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
