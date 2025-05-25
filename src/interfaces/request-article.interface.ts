@@ -1,8 +1,10 @@
-import { RequestType } from '../enums/request-type.enum';
-import { RequestArticleType } from '../enums/request-article-type.enum';
+import { RequestType } from "../enums/request-type.enum";
+import { RequestArticleType } from "../enums/request-article-type.enum";
 
 export interface IRequestArticle {
   id: string;
+  awningId?: string;
+  articleId?: string;
   order?: number;
   created: Date;
   name: string;
