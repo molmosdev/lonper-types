@@ -6,6 +6,8 @@ export interface IRequestArticle {
   awningId?: string;
   articleId?: string;
   relatedAwningArticleId?: string;
+  relatedFieldId?: string;
+  supplierDescription?: string;
   order?: number;
   created: Date;
   name: string;
