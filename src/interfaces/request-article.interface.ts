@@ -5,6 +5,7 @@ export interface IRequestArticle {
   id: string;
   awningId?: string;
   articleId?: string;
+  relatedAwningArticleId?: string;
   order?: number;
   created: Date;
   name: string;
