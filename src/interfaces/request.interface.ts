@@ -6,7 +6,7 @@ import { IRequestAddress } from './request-address.interface';
 export interface IRequest {
   address: IRequestAddress;
   articles: IRequestArticle[];
-  email: string;
+  clientNumber: number;
   reference: string;
   deliveryDate: Date | undefined;
   number: number | null;
