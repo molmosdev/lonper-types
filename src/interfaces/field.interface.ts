@@ -1,4 +1,4 @@
-import { IFieldConfig } from './field-config.interface';
+import { IFieldConfig } from "./field-config.interface";
 
 export interface IField {
   id: string;
@@ -8,4 +8,5 @@ export interface IField {
   description: string | null;
   saveOnRequest: boolean;
   fieldsConfigs: IFieldConfig[];
+  delfosId: string;
 }
