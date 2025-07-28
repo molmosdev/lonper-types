@@ -1,3 +1,5 @@
+export * from "./delfos-order-article.interface";
+export * from "./delfos-order-request.interface";
 export * from "./field.interface";
 export * from "./filter.interface";
 export * from "./group.interface";
