@@ -1,0 +1,1 @@
+export type DelfosType = 'NUMBER' | 'BOOLEAN' | 'TEXT';

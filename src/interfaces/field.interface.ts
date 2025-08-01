@@ -1,3 +1,4 @@
+import { DelfosType } from "../types/delfos-type.type";
 import { IFieldConfig } from "./field-config.interface";
 
 export interface IField {
@@ -9,4 +10,5 @@ export interface IField {
   saveOnRequest: boolean;
   fieldsConfigs: IFieldConfig[];
   delfosId: string;
+  delfosType: DelfosType;
 }
