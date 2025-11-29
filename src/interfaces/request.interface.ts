@@ -10,7 +10,7 @@ export interface IRequest {
   clientName: string;
   clientNumber: number;
   reference: string;
-  deliveryDate: Date | undefined;
+  deliveryDate: Date | null;
   number: number | null;
   type: RequestType;
   resume: IRequestSummary;

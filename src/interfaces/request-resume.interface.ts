@@ -6,5 +6,5 @@ export interface IRequestSummary {
   shipping: number | string;
   salesBudget: number | string;
   salesBudgedPlusTaxes?: number | string;
-  observations: number | string;
+  observations: string;
 }

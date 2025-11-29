@@ -4,7 +4,7 @@ import { IDelfosOrderArticle } from "./delfos-order-article.interface";
 export interface IDelfosOrderRequest {
   id: string;
   reference: string;
-  deliveryDate: Date | undefined;
+  deliveryDate: Date | null;
   client: number;
   address: number;
   articles: IDelfosOrderArticle[];
