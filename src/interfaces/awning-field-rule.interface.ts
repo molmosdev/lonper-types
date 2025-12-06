@@ -4,9 +4,9 @@ import { IDBSelect } from "./db-select.interface";
 import { Size } from "../enums/size.enum";
 import { ISelectOption } from "./select-option.interface";
 
-export interface IFieldSubconfig {
+export interface IAwningFieldRule {
   id: string;
-  fieldConfigId: string;
+  awningFieldId?: string;
   showName: boolean;
   type: string;
   value: any | null;
